@@ -103,20 +103,20 @@ msgstr "Erlaubt lesenden Zugriff auf allgemeine Einstellungen (jedoch keine krit
 msgid "Allows to manage settings and also to read sensitive settings"
 msgstr "Erlaubt vollen Zugriff auf alle Einstellungen"
 
-#: src/octoprint/plugins/action_command_notification/__init__.py:35
+#: src/octoprint/plugins/action_command_notification/_it__.py:35
 msgid "Allows to see printer notifications"
 msgstr "Erlaubt die Anzeige von Druckersicherheitswarnungen"
 
-#: src/octoprint/plugins/action_command_notification/__init__.py:42
+#: src/octoprint/plugins/action_command_notification/_it__.py:42
 msgid "Allows to clear printer notifications"
 msgstr "Erlaubt das Löschen von Druckerbenachrichtigungen"
 
-#: src/octoprint/plugins/action_command_notification/__init__.py:95
-#: src/octoprint/plugins/action_command_notification/__init__.py:100
+#: src/octoprint/plugins/action_command_notification/_it__.py:95
+#: src/octoprint/plugins/action_command_notification/_it__.py:100
 msgid "Printer Notifications"
 msgstr "Druckerbenachrichtigungen"
 
-#: src/octoprint/plugins/action_command_notification/__init__.py:142
+#: src/octoprint/plugins/action_command_notification/_it__.py:142
 msgid "Without this plugin your printer will no longer be able to trigger notifications in OctoPrint"
 msgstr "Ohne dieses Plugin wird dein Drucker nicht mehr in der Lage sein, Benachrichtigungen in OctoPrint anzuzeigen"
 
@@ -154,15 +154,15 @@ msgstr "Es gibt aktuell keine Benachrichtigungen von deinem Drucker."
 msgid "Change sorting"
 msgstr "Sortierung ändern"
 
-#: src/octoprint/plugins/action_command_prompt/__init__.py:74
+#: src/octoprint/plugins/action_command_prompt/_it__.py:74
 msgid "Allows to see and interact with printer prompts"
 msgstr "Erlaubt Zugriff auf Printerprompts"
 
-#: src/octoprint/plugins/action_command_prompt/__init__.py:156
+#: src/octoprint/plugins/action_command_prompt/_it__.py:156
 msgid "Printer Dialogs"
 msgstr "Printerdialoge"
 
-#: src/octoprint/plugins/action_command_prompt/__init__.py:293
+#: src/octoprint/plugins/action_command_prompt/_it__.py:293
 msgid "Without this plugin your printer will no longer be able to trigger confirmation or selection prompts in OctoPrint"
 msgstr "Ohne dieses Plugin wird dein Drucker nicht mehr in der Lage sein, Bestätigungs- oder Auswahldialoge in OctoPrint auszulösen"
 
@@ -228,21 +228,21 @@ msgstr "Senden des konfigurierten Befehls forcieren um blockende Firmwareroutine
 msgid "Enable signaling to the firmware that we support <code>prompt_*</code> actions if detected as supported. You normally should not have to change this."
 msgstr "Der Firmware signalisieren, dass wir <code>prompt_*</code> Aktionen unterstützen, falls Firmwareunterstützung erkannt wird. Du solltest das normalerweise nicht ändern müssen."
 
-#: src/octoprint/plugins/announcements/__init__.py:58
+#: src/octoprint/plugins/announcements/_it__.py:58
 msgid "Allows to read announcements"
 msgstr "EJrlaubt das Lesen von Ankündigungen"
 
-#: src/octoprint/plugins/announcements/__init__.py:65
+#: src/octoprint/plugins/announcements/_it__.py:65
 msgid "Allows to manage announcement subscriptions. Includes \"Read announcements\" permission"
 msgstr "Erlaubt die Verwaltung von Ankündigungen. Beinhaltet die \"Read announcements\" Berechtigung"
 
-#: src/octoprint/plugins/announcements/__init__.py:177
+#: src/octoprint/plugins/announcements/_it__.py:177
 #: src/octoprint/plugins/announcements/templates/announcements.jinja2:4
 #: src/octoprint/plugins/announcements/templates/announcements_navbar.jinja2:1
 msgid "Announcements"
 msgstr "Ankündigungen"
 
-#: src/octoprint/plugins/announcements/__init__.py:629
+#: src/octoprint/plugins/announcements/_it__.py:629
 msgid "Without this plugin you might miss important announcements regarding security or other critical issues concerning OctoPrint."
 msgstr "Ohne dieses Plugin könntest du wichtige Benachrichtigung hinsichtlich Security oder kritischer Fehler in OctoPrint verpassen."
 
@@ -329,16 +329,16 @@ msgstr "Aktionen"
 msgid "Refresh Announcements"
 msgstr "Ankündigungen aktualisieren"
 
-#: src/octoprint/plugins/appkeys/__init__.py:123
+#: src/octoprint/plugins/appkeys/_it__.py:123
 msgid "Allows administrating all application keys"
 msgstr "Erlaubt die Administration aller Applicationkeys"
 
-#: src/octoprint/plugins/appkeys/__init__.py:134
-#: src/octoprint/plugins/appkeys/__init__.py:135
+#: src/octoprint/plugins/appkeys/_it__.py:134
+#: src/octoprint/plugins/appkeys/_it__.py:135
 msgid "Application Keys"
 msgstr "Application Keys"
 
-#: src/octoprint/plugins/appkeys/__init__.py:484
+#: src/octoprint/plugins/appkeys/_it__.py:484
 msgid "Without this plugin third party clients will no longer be able to obtain an API key without you manually copy-pasting it."
 msgstr "Ohne dieses Plugin können Third Party Clients keine API Keys mehr erlangen, ohne dass du sie manuell übertragen musst."
 
@@ -517,20 +517,20 @@ msgstr "Generiere einen Application Key manuell"
 msgid "Generate"
 msgstr "Erzeugen"
 
-#: src/octoprint/plugins/backup/__init__.py:87
+#: src/octoprint/plugins/backup/_it__.py:87
 msgid "Allows access to backups and restores"
 msgstr "Erlaubt Zugriff auf und Wiederherstellung von Backups"
 
-#: src/octoprint/plugins/backup/__init__.py:126
+#: src/octoprint/plugins/backup/_it__.py:126
 #: src/octoprint/templates/recovery.jinja2:96
 msgid "Backup & Restore"
 msgstr "Sicherung & Wiederherstellung"
 
-#: src/octoprint/plugins/backup/__init__.py:127
+#: src/octoprint/plugins/backup/_it__.py:127
 msgid "Restore Backup?"
 msgstr "Sicherung wiederherstellen?"
 
-#: src/octoprint/plugins/backup/__init__.py:1414
+#: src/octoprint/plugins/backup/_it__.py:1414
 msgid "Without this plugin you will no longer be able to backup & restore your OctoPrint settings and data."
 msgstr "Ohne dieses Plugin kannst du deine OctoPrint Einstellung und Daten nicht länger sichern & wiederherstellen."
 
@@ -787,7 +787,7 @@ msgstr "Durchsuchen..."
 msgid "Upload & restore"
 msgstr "Hochladen & wiederherstellen"
 
-#: src/octoprint/plugins/corewizard/__init__.py:134
+#: src/octoprint/plugins/corewizard/_it__.py:134
 msgid "Without this plugin OctoPrint will no longer be able to perform setup steps that might be required after an update."
 msgstr "Ohne dieses Plugin wird OctoPrint nicht mehr in der Lage sein, wichtige Konfigurationsschritte durchzuführen, die ggf. nach einem Update notwendig sind."
 
@@ -1115,11 +1115,11 @@ msgid "<p>\n"
 "</p>"
 msgstr "<p>Um Snapshots zu Zeitrafferaufnahmen zu rendern muss OctoPrint auch den korrekten <strong>Pfad zu FFMPEG</strong> wissen.</p>"
 
-#: src/octoprint/plugins/discovery/__init__.py:826
+#: src/octoprint/plugins/discovery/_it__.py:826
 msgid "Without this plugin your OctoPrint instance will no longer be discoverable on the network via Bonjour and uPnP."
 msgstr "Ohne dieses Plugin wird deine OctoPrint Instanz nicht mehr in deinem Netzwerk mittels Bonjour oder uPnP automatisch auffindbar sein."
 
-#: src/octoprint/plugins/errortracking/__init__.py:87
+#: src/octoprint/plugins/errortracking/_it__.py:87
 #: src/octoprint/plugins/errortracking/templates/errortracking_settings.jinja2:1
 msgid "Error Tracking"
 msgstr "Fehlertracking"
@@ -1206,12 +1206,12 @@ msgstr "\n"
 "  <a href=\"https://sentry.io/privacy/\" target=\"_blank\" rel=\"noopener noreferer\">Privacy Policy</a> an.\n"
 "</p>\n"
 
-#: src/octoprint/plugins/gcodeviewer/__init__.py:74
+#: src/octoprint/plugins/gcodeviewer/_it__.py:74
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_settings.jinja2:1
 msgid "GCode Viewer"
 msgstr "GCode Viewer"
 
-#: src/octoprint/plugins/gcodeviewer/__init__.py:77
+#: src/octoprint/plugins/gcodeviewer/_it__.py:77
 msgid "Without this plugin the GCode Viewer in OctoPrint will no longer be available."
 msgstr "Ohne dieses Plugin ist der GCode Viewer in OctoPrint nicht verfügbar."
 
@@ -1230,7 +1230,7 @@ msgstr "Analysiert"
 #: src/octoprint/plugins/gcodeviewer/static/js/gcodeviewer.js:656
 #: src/octoprint/static/js/app/viewmodels/files.js:929
 msgid "Model size"
-msgstr "Modelgröße"
+msgstr "Modellgröße"
 
 #: src/octoprint/plugins/gcodeviewer/static/js/gcodeviewer.js:666
 msgid "Estimated layer height"
@@ -1326,7 +1326,7 @@ msgstr "Nächste Schicht"
 
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_tab.jinja2:28
 msgid "Model info"
-msgstr "Modelinformationen"
+msgstr "Modellinformationen"
 
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_tab.jinja2:31
 msgid "Layer info"
@@ -1346,7 +1346,7 @@ msgstr "Ausschnitt auf Modell zentrieren"
 
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_tab.jinja2:47
 msgid "Zoom in on model"
-msgstr "Auf Model zoomen"
+msgstr "Auf Modell zoomen"
 
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_tab.jinja2:53
 msgid "Show moves"
@@ -1466,11 +1466,11 @@ msgstr "<p>\n"
 msgid "Yes, please visualize %(name)s regardless of its size"
 msgstr "Ja, bitte visualisiere %(name)s unabhängig seiner Größe"
 
-#: src/octoprint/plugins/logging/__init__.py:44
+#: src/octoprint/plugins/logging/_it__.py:44
 msgid "Allows to download and delete log files and list and set log levels."
 msgstr "Erlaubt den Download von Logdateien sowie deren Löschung und das Setzen von Loglevels."
 
-#: src/octoprint/plugins/logging/__init__.py:285
+#: src/octoprint/plugins/logging/_it__.py:285
 msgid "Without this plugin you will no longer be able to retrieve OctoPrint's logs or modify the current logging levels through the web interface."
 msgstr "Ohne dieses Plugin kannst du OctoPrints Logfiles nicht mehr über das Webinterface herunterladen und auch die aktuellen Loglevel modifizieren."
 
@@ -1588,15 +1588,15 @@ msgstr "Entfernen"
 msgid "Select a logger..."
 msgstr "Logger wählen..."
 
-#: src/octoprint/plugins/pluginmanager/__init__.py:231
+#: src/octoprint/plugins/pluginmanager/_it__.py:231
 msgid "Allows to enable, disable and uninstall installed plugins."
 msgstr "Erlaubt das aktivieren, deaktivieren und deinstallieren installierter Plugins."
 
-#: src/octoprint/plugins/pluginmanager/__init__.py:240
+#: src/octoprint/plugins/pluginmanager/_it__.py:240
 msgid "Allows to install new plugins. Includes the \"Manage plugins\" permission."
 msgstr "Erlaubt das Installieren neuer Plugins. Beinhaltet die \"Manage plugins\" Berechtigung."
 
-#: src/octoprint/plugins/pluginmanager/__init__.py:318
+#: src/octoprint/plugins/pluginmanager/_it__.py:318
 msgid "Plugin Manager"
 msgstr "Pluginmanager"
 
@@ -2325,50 +2325,50 @@ msgstr "Abbruch"
 msgid "Save"
 msgstr "Speichern"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:132
+#: src/octoprint/plugins/softwareupdate/_it__.py:132
 msgid "Allows to check for software updates"
 msgstr "Erlaubt das Prüfen auf Softwareaktualisierungen"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:139
+#: src/octoprint/plugins/softwareupdate/_it__.py:139
 msgid "Allows to perform software updates"
 msgstr "Erlaubt das Durchführen von Softwareaktualisierungen"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:147
+#: src/octoprint/plugins/softwareupdate/_it__.py:147
 msgid "Allows to configure software update"
 msgstr "Erlaubt das Konfigurieren von Softwareaktualisierungen"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:957
+#: src/octoprint/plugins/softwareupdate/_it__.py:957
 msgid "Python package installation folder"
 msgstr "Python-Paket-Installationsverzeichnis"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:958
+#: src/octoprint/plugins/softwareupdate/_it__.py:958
 msgid "Plugin folder"
 msgstr "Pluginverzeichnis"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:959
+#: src/octoprint/plugins/softwareupdate/_it__.py:959
 msgid "System temporary files"
 msgstr "Temporäre Dateien"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:991
+#: src/octoprint/plugins/softwareupdate/_it__.py:991
 #: src/octoprint/templates/footer.jinja2:4
 msgid "Python"
 msgstr "Python"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:998
-#: src/octoprint/plugins/softwareupdate/__init__.py:2024
+#: src/octoprint/plugins/softwareupdate/_it__.py:998
+#: src/octoprint/plugins/softwareupdate/_it__.py:2024
 msgid "pip"
 msgstr "pip"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:1005
+#: src/octoprint/plugins/softwareupdate/_it__.py:1005
 msgid "setuptools"
 msgstr "setuptools"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:1231
+#: src/octoprint/plugins/softwareupdate/_it__.py:1231
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_wizard.jinja2:1
 msgid "Software Update"
 msgstr "Software Update"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:1962
+#: src/octoprint/plugins/softwareupdate/_it__.py:1962
 #: src/octoprint/server/views.py:1048
 #: src/octoprint/static/js/app/viewmodels/appearance.js:106
 #: src/octoprint/static/js/app/viewmodels/appearance.js:110
@@ -2380,7 +2380,7 @@ msgstr "Software Update"
 msgid "OctoPrint"
 msgstr "OctoPrint"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:2186
+#: src/octoprint/plugins/softwareupdate/_it__.py:2186
 msgid "Without this plugin OctoPrint will no longer be able to update itself or any of your installed plugins which might put your system at risk."
 msgstr "Ohne dieses Plugin wird OctoPrint nicht länger in der Lage sein, sich selbst oder deine installierten Plugins zu aktualisierten. Das könnte dein System gefährden."
 
@@ -2875,8 +2875,8 @@ msgstr "Getrackter Branch"
 msgid "OctoPrint version tracking"
 msgstr "OctoPrint Versionstracking"
 
-#: src/octoprint/plugins/tracking/__init__.py:178
-#: src/octoprint/plugins/tracking/__init__.py:184
+#: src/octoprint/plugins/tracking/_it__.py:178
+#: src/octoprint/plugins/tracking/_it__.py:184
 #: src/octoprint/plugins/tracking/templates/tracking_settings.jinja2:1
 msgid "Anonymous Usage Tracking"
 msgstr "Anonymous Usage Tracking"
